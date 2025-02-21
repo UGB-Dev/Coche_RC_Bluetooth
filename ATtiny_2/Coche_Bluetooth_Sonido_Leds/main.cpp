@@ -9,20 +9,20 @@
 
 /*
     Trama que debe envia el transmisor:
-	   +--------+--------+--------+
-	   |  SOF   |  DATO  |   EOF  |
+       +--------+--------+--------+
+       |  SOF   |  DATO  |   EOF  |
        +--------+--------+--------+
 	
 	donde:
-	      SOF = Inicio de trama ('V')
-		  DATO = X datos propuestos por el usuario
-		  EOF = Fin de trama ('W')
+          SOF = Inicio de trama ('V')
+          DATO = X datos propuestos por el usuario
+          EOF = Fin de trama ('W')
 		  
 	Acciones que realiza el ATtiny10 con los datos recibidos:
-	      'C' = Secuencia de Claxon
-		  'Q' = Activacion de motor para Avanzar y leds frontales
-		  'R' = Activacion de motor para Retroceder, leds traceros y beep
-		  'P' = Desactiva el motor
+          'C' = Secuencia de Claxon
+          'Q' = Activacion de motor para Avanzar y leds frontales
+          'R' = Activacion de motor para Retroceder, leds traceros y beep
+          'P' = Desactiva el motor
 */
 
 int main(void){
