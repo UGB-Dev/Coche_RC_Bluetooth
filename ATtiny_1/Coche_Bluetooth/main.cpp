@@ -9,22 +9,22 @@
 
 /*
     Trama que debe envia el transmisor:
-	   +--------+--------+--------+
-	   |  SOF   |  DATO  |   EOF  |
+       +--------+--------+--------+
+       |  SOF   |  DATO  |   EOF  |
        +--------+--------+--------+
 	
 	donde:
-	      SOF = Inicio de trama ('V')
-		  DATO = X datos propuestos por el usuario
-		  EOF = Fin de trama ('W')
+          SOF = Inicio de trama ('V')
+          DATO = X datos propuestos por el usuario
+          EOF = Fin de trama ('W')
 		  
 	Acciones que realiza el ATtiny10 con los datos recibidos:
-	      'D' = Servomotor gira hacia la Derecha
-		  'I' = Servomotor gira hacia la Izquierda
-		  'F' = Servomotor gira hacia el Centro
-		  'Q' = Activacion de motor para Avanzar
-		  'R' = Activacion de motor para Retroceder
-		  'P' = Desactiva el motor
+          'D' = Servomotor gira hacia la Derecha
+          'I' = Servomotor gira hacia la Izquierda
+          'F' = Servomotor gira hacia el Centro
+          'Q' = Activacion de motor para Avanzar
+          'R' = Activacion de motor para Retroceder
+          'P' = Desactiva el motor
 */
 
 
